@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+  --primary: #f8a4ff;
+}
+
+main {
+  /* border: 1px solid red; */
+  @apply text-lg;
+}
+
+.page-title {
+  @apply text-2xl font-bold mb-4;
+}
+
+a.link {
+  font-weight: 600;
+  color: var(--primary);
+}
+
+.image {
+  filter: grayscale(100%);
+  display: inline-block;
+  border-radius: 10px;
+}
